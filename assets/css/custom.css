@@ -1,0 +1,404 @@
+
+body{
+	background-color: #000;
+	font-family: "Sora", sans-serif;
+  background-image: url('../images/background.png');
+  background-size: cover; 
+  background-position: center; 
+}
+.Source{
+	 font-family: "Source Code Pro", monospace;
+}
+.relative{
+	position: relative;
+}
+.header_btn{
+	font-family: "Source Code Pro", monospace;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.035em;
+	text-align: center;
+ 	border-width: 2px;
+  border-style: solid;
+  border-image: conic-gradient(from 180deg at 50% 50%, #18A0FB 0deg, #FACB7C 106.2deg, #FF89C2 257.4deg, #9453FF 360deg) 1;
+  border-radius: 10px;
+  padding: 10px 22px 10px 22px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  transition: 0.10s;
+}
+.header_btn:hover{
+	color: #fff;
+	background-image:  conic-gradient(from 180deg at 50% 50%, #18A0FB 0deg, #FACB7C 106.2deg, #FF89C2 257.4deg, #9453FF 360deg);
+}
+.bb-1{
+	border-bottom: 1px solid #FFFFFF1A;
+}
+.hero_content h1{
+	font-family: Sora;
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 72px;
+	letter-spacing: 0em;
+	color: #FFFFFF;
+}
+.hero_content p{
+	font-family: Sora;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 0em;
+	color: #CAC6DD;
+}
+.hero_buttons a{
+	text-decoration: none;
+	background: #FFFFFF;
+	font-family: Source Code Pro;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.035em;
+	border-radius: 10px;
+	color: #000000;
+	padding: 12px 22px 12px 22px;
+	display: inline-block;
+	margin: 0px 10px;
+	border:1px solid #FFFFFF;
+}
+
+
+.heading_box h1{
+	font-family: Sora;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 60px;
+	color: #FFFFFF;
+}
+.text-white{
+	color: #FFFFFF;	
+}
+.samrt_box h6{
+	font-family: Sora;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+
+}
+.samrt_box p{
+	font-family: Sora;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	color: #ADA8C3;
+}
+.bg-1{
+	background-image: url(../images/bg1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bg-2{
+	background-image: url(../images/bg2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.samrt_box{
+	height: 336px;
+}
+.hero{
+	background-image: url(../images/bgpattren.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 70px;
+}
+/*.card-gradient:after{
+	content: '';
+	width: 300px;
+	height: 300px;
+	background-image: url(../images/gradient.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+.heading_box p{
+	font-family: Sora;
+	color:white
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+#accordionExample .accordion-item {
+  background-color: transparent;
+  border: 0px;
+}
+#accordionExample  .accordion-button{
+	background-color: transparent;
+	font-family: Sora;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #fff;
+	padding: 16px 0px !important;
+}
+#accordionExample .accordion-button:not(.collapsed)::after {
+  background-image:unset;
+  transform: rotate(-180deg);
+}
+#accordionExample .accordion-button::after{
+	background-image:unset;
+	width: 0px !important;
+  height: 0px !important;
+}
+#accordionExample .accordion-body {
+  padding: 1rem 0rem;
+}
+.feature_content h2{
+	font-family: Sora;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 48px;
+	color: #FFFFFF;
+
+} 
+.feature_content p{
+	font-family: Sora;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	color: #B6B1C8;
+}
+.freature_row{
+	border: 2px solid #FFFFFF1C;
+	border-radius: 24px;
+}
+.frame{
+	background-image: url(../images/frame.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+.footer{
+	background-image: url(../images/bgpattren.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.footer .heading_box h3{
+	font-family: Sora;
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 72px;
+	color: #FFFFFF;
+}	
+.footer .heading_box p{
+	font-family: Sora;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	color: white;
+}
+.footer .heading_box a{
+	text-decoration: none;
+	background: #FFFFFF;
+	font-family: Source Code Pro;
+	font-size: 12px;
+	font-weight: 600;s
+	letter-spacing: 0.035em;
+	border-radius: 10px;
+	color: #000000;
+	padding: 12px 22px 12px 22px;
+	display: inline-block;
+	margin: 0px 10px;	
+	border:1px solid #FFFFFF;
+}
+.heading_box a:hover{
+	background: transparent;
+	color: #fff;
+}
+.hero_buttons a:hover{
+	background: transparent;
+	color: #fff;
+}
+.gradient {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 100%;
+    position: absolute;
+    top: 46px;
+    right: 19px;
+    filter: blur(10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 786px) {
+	.hero_content h1{
+		font-size: 40px;
+		line-height: 55px;
+	}
+	.hero_content p{
+		font-size: 16px;
+	}
+	.heading_box h1{
+		font-size: 35px;
+	}
+	.samrt_box h6{
+		font-size: 17px;
+	}
+	.samrt_box p{
+		font-size: 12px;
+	}
+	.feature_content h2{
+    font-size: 22px;
+		line-height: 31px;
+	}
+	.feature_content p{
+		font-size: 12px;
+		font-size: 12px;
+	}
+	.footer .heading_box h3{
+		font-size: 39px;
+		line-height: 55px;
+	}
+	.footer .heading_box p{
+		font-size: 16px;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.hero_content h1{
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.hero_content p{
+		font-size: 14px;
+	}
+	.heading_box h1{
+		font-size: 28px;
+	}
+	.samrt_box h6{
+		font-size: 15px;
+	}
+	.samrt_box p{
+		font-size: 12px;
+	}
+	.footer .heading_box h3{
+		font-size: 35px;
+		line-height: 45px;
+	}
+	.footer .heading_box p{
+		font-size: 14px;
+	}
+	.hero_buttons a{
+		padding: 12px !important;
+		margin: 0px 0px;
+	}
+	.feature_content{
+		text-align: center;
+	}
+	.mt-5 {
+    margin-top: 1.5rem !important;
+	}
+	.mb-5 {
+    margin-bottom: 1.5rem !important;
+	}
+	.pt-5 {
+    padding-top: 1.5rem !important;
+	}
+	.pb-5 {
+    padding-bottom: 1.5rem !important;
+	}
+	.footer .heading_box img{
+		width: 100% !important;
+	}
+}
+
+
+@media only screen and (min-width: 1300px) and (max-width: 1920px) {
+  .frame{
+  	background-size: contain;
+  }
+  .samrt_box {
+	    height: 393px;
+	}
+}
+
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block. */
+#mc_embed_signup {
+    font-family: 'Source Code Pro', monospace;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex; /* Ensure the form is a flex container to align children */
+    justify-content: center; /* Center the form contents */
+    flex-wrap: wrap; /* Allow items to wrap if not enough space */
+}
+
+.mc-field-group {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow elements to wrap if there's not enough space */
+    width: 100%; /* Ensure the field group takes the full width of its container */
+}
+
+.mc-field-group input[type="email"] {
+    flex-grow: 1; /* Let the input field grow to fill available space */
+    min-width: 200px; /* Set a minimum width for the input box */
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.3); /* Keeping original background color */
+    margin-right: 10px; /* Ensure some space between the input and the button */
+    color: white; /* Keeping original text color */
+}
+
+.mc-field-group input[type="email"]::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#mc-embedded-subscribe {
+    flex-basis: 100%; /* Start with full width to double the size of the button */
+    max-width: 200%; /* Allow the button to grow up to double its size */
+    padding: 12px 22px; /* Adjusted padding for better alignment */
+    background: #FFFFFF; /* Keeping original button background color */
+    color: #000000; /* Keeping original button text color */
+    border-radius: 10px !important; /* Keeping original border radius */
+    border: 1px solid #FFFFFF !important; /* Keeping original border color */
+    cursor: pointer; /* Cursor pointer to indicate button */
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Add some space between the input and the button when wrapped */
+}
+
+#mc-embedded-subscribe:hover {
+    background: transparent; /* Keeping original hover effect */
+    color: #fff;
+}
+
+/* Hide the honeypot field */
+[aria-hidden="true"] {
+    display: none !important;
+}
