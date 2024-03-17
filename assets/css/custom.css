@@ -128,7 +128,7 @@ body{
 }*/
 .heading_box p{
 	font-family: Sora;
-	color:white
+	color:white;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 24px;
@@ -211,7 +211,7 @@ body{
 	background: #FFFFFF;
 	font-family: Source Code Pro;
 	font-size: 12px;
-	font-weight: 600;s
+	font-weight: 600;
 	letter-spacing: 0.035em;
 	border-radius: 10px;
 	color: #000000;
@@ -401,4 +401,32 @@ body{
 /* Hide the honeypot field */
 [aria-hidden="true"] {
     display: none !important;
+}
+
+.hero_section {
+    display: flex;
+    flex-direction: row; /* default direction */
+    justify-content: center;
+    align-items: center;
+    text-align: left; /* Align text to the left within each child div */
+	color: white;
+}
+
+.content, .pic {
+    flex: 1; /* Both children take up equal space */
+}
+
+.pic img {
+    max-width: 80%;
+    height: auto;
+	justify-content: center;
+    align-items: center;
+	text-align: center;
+
+}
+
+@media (max-width: 768px) {
+    .hero_section {
+        flex-direction: column; /* Stack children vertically on smaller screens */
+    }
 }
