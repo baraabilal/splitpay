@@ -417,6 +417,7 @@ body{
     flex-direction: row; /* default direction */
     justify-content: center;
     align-items: center;
+	padding-bottom: 30px;
 }
 
 
