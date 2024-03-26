@@ -412,6 +412,14 @@ body{
 	color: white;
 }
 
+.product_hunt {
+    display: flex;
+    flex-direction: row; /* default direction */
+    justify-content: center;
+    align-items: center;
+}
+
+
 .content, .pic {
     flex: 1; /* Both children take up equal space */
 }
