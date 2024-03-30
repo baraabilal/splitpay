@@ -420,6 +420,45 @@ body{
 	padding-bottom: 30px;
 }
 
+/* Existing styles... */
+
+/* Existing styles... */
+
+.header_link, .header_btn, .mobile-menu-item, .mobile-link {
+    color: white; /* Sets text color to white */
+    text-decoration: none; /* Removes underline */
+}
+
+.navigation a, .mobile-navigation a {
+    margin-right: 15px; /* Adjust spacing */
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as necessary */
+    color: white; /* Adjust color as necessary */
+    margin-left: 10px; /* Ensures spacing between menu icon and link */
+}
+
+.mobile-menu-content a {
+    padding: 10px;
+    display: block; /* Stack links vertically */
+}
+
+.mobile-menu-content {
+    background-color: #000; /* Adjust background color as necessary */
+}
+
+/* Adjustments for mobile layout */
+.mobile-navigation {
+    justify-content: flex-end; /* Aligns items to the right */
+}
+
+/* Additional styles for no underline on hover */
+.header_link:hover, .header_btn:hover, .mobile-menu-item:hover, .mobile-link:hover {
+    text-decoration: none;
+}
+
 
 .content, .pic {
     flex: 1; /* Both children take up equal space */
