@@ -478,3 +478,15 @@ body{
         flex-direction: column; /* Stack children vertically on smaller screens */
     }
 }
+
+.footer-class {
+	justify-content: center;
+    align-items: center;
+	text-align: center;
+
+}
+
+.footer-class a{
+	padding: 10px;
+
+}
